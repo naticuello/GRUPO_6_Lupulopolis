@@ -13,7 +13,7 @@ El equipo esta conformado por 3 integrantes.
 Tercer año de de Ing. Informática (UNSTA),
 Diplomatura en estrategia de ciberseguridad (UNSTA),
 Programación Web Full Stack (Digital House)
-*Natalia María Cuello,30 años, Diseñadora UI/UX freelance y data entry en una empresa. Programación Web Full Stack (Digital House)
+* Natalia María Cuello,30 años, Diseñadora UI/UX freelance y data entry en una empresa. Programación Web Full Stack (Digital House)
 
 # BUSQUEDA DE INSPIRACION
 
