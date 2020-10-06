@@ -12,6 +12,6 @@ El equipo esta conformado por 3 integrantes.
 
 # BUSQUEDA DE INSPIRACION
 
-1- https://www.clubcervecero.com.py -> Home del Sitio web y Carrito de Compras
-2- https://www.beercoffee.com.ar/producto/beer-pack-cachalote-2-pinta-americana/ -> Detalles del Producto
-3- https://www.pub-beer.com/menu -> Menus para acompañar las Cervezas
+* https://www.clubcervecero.com.py -> Home del Sitio web y Carrito de Compras
+* https://www.beercoffee.com.ar/producto/beer-pack-cachalote-2-pinta-americana/ -> Detalles del Producto
+* https://www.pub-beer.com/menu -> Menus para acompañar las Cervezas
