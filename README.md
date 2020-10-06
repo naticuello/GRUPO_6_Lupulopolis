@@ -8,7 +8,7 @@ Nuestro objetivo esta enfocado en empresas que fabriquen cervezas como tambien e
 
 # EQUIPO
 El equipo esta conformado por 3 integrantes.
-* Matias Bossa Valvede, 26 años, Estudiante de la Tec Univ en Desarrollo de Software (ULP) y Becario del curso de Desarrollo web FullStack (Digital House)
+* Matias Bossa Valvede, 26 años, Estudiante de la Tec Univ en Desarrollo de Software (ULP) y Becario del curso de Desarrollo Web FullStack (Digital House)
 * Gonzalo Patricio Di Ascenzi Severini estudiante de Ing. Informática en UNSTA. Actualmente cursando:
 Tercer año de de Ing. Informática (UNSTA),
 Diplomatura en estrategia de ciberseguridad (UNSTA),
