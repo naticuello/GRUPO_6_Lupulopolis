@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* BARRA DE NAVEGACION */
+
  .navbar{
   position: sticky;
   top: 0;
@@ -64,7 +66,7 @@
   color: lightgreen;
 }
 
-
+/* CUERPO DEL SITIO GENERAL */
 
 body{
   background-color: #ff9f1c;
@@ -109,6 +111,7 @@ a{
   padding: 10px 20px;
   box-sizing: border-box;
   font-family: 'Segoe UI';
+  background-color: #fff;
 }
 
 .type{
@@ -170,6 +173,17 @@ a{
   transition: all ease 0.3s;
 }
 
+
+.add-btn{
+  background-color: limegreen;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 15px 0;
+  border: 0;
+}
+
 .overlay{
   visibility: hidden;
 }
@@ -197,4 +211,10 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.slider-ofert h2{
+  position: relative;
+  top: 35px;
+  text-align: center;
 }
