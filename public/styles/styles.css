@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #575761;
+  text-align: center;
+  height: 60px;
+}
+
+.navbar-container{
+  display: none;
+}
+
+.hamburger-menu{
+  position: absolute;
+}
+
+.hamburger-menu span{
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 24px;
+  padding-top: 8px;
+  background-color: #3b8539;
+  margin: 10px;
+}
+
+.hamburger-menu span:hover{
+  background-color: #3cc737;
+}
+
+.logo-menu img{
+  position: relative;
+  top: 1em;
+  height: 70px;
+  width: auto;
+}
+
+.logo-login-cart{
+  position: relative;
+  bottom: 4.2em;
+  float: right;
+}
+
+.logo-login-cart span{
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-size: 1.2em;
+  padding-top: 8px;
+  margin: 8px 0;
+  margin-right: 15px;
+}
+
+.logo-login-cart span:hover{
+  color: lightgreen;
+}
+
+.slider-container{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+}
+
+.slider-container img{
+  margin: 10px 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.container-img{
+  max-width: 100%;
+  display: flex;
+}
+
+body{
+  background-color: #ff9f1c;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
