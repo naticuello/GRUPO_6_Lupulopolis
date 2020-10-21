@@ -13,6 +13,10 @@ app.get('/productDetail', (req, res) => {
     res.sendFile(__dirname + '/views/productDetail.html');
 });
 
+app.get('/productCart', (req, res) => {
+    res.sendFile(__dirname + '/views/productCart.html');
+});
+
 
 app.listen(PORT, () => {
     console.log("El servidor de monto en el puerto " + PORT);
