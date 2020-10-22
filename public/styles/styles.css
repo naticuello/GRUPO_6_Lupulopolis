@@ -33,7 +33,16 @@
   margin: 10px;
   border-radius: 5px;
 }
+#login {
+  padding: 3px;
+  transition-duration: 0.4s;
+}
 
+#login:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  
+}
 /* .hamburger-menu span:hover{
   background-color: #3cc737;
 } */
