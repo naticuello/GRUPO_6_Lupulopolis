@@ -1,5 +1,5 @@
 # `GRUPO 6 - LUPULOPOLIS`
-
+<br>
 <p>
 
 ## `ALCANCE DEL PROYECTO:`
@@ -20,7 +20,7 @@ El equipo esta conformado por los siguientes tres integrantes: <br>
 ### `Matias Bossa Valvede:` 
 - 26 años 
 - Estudiante de Tecnicatura Universitaria en Desarrollo de Software (ULP) 
-- Becario del curso de Desarrollo Web FullStack (Digital House) <br>
+- Becario del Curso de Programacion Web FullStack (Digital House) <br>
 
 ### `Gonzalo Patricio Di Ascenzi Severini:`  
 - 21 años 
@@ -46,17 +46,13 @@ El equipo esta conformado por los siguientes tres integrantes: <br>
 <p>
 
 ## `Extras:`
-<br>
 
-### `SCRIPTS DISPONIBLES`
-
+### `SCRIPTS DISPONIBLES:` 
 En el directorio del proyecto se pueden correr los siguientes scripts:
 
-- `npm run dev:` Corre la aplicación en modo desarrollo.<br />
+- `npm run dev:` Corre la aplicación en modo desarrollo.<br/>
 Se irá compilando a medida que realices cambios.<br />
 You will also see any lint errors in the console.
 
 - `npm run start:` Con este script podras utilizar babel para dejar el codigo listo para producción.
-
-
 </p>
