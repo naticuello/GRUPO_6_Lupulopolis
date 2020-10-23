@@ -471,3 +471,34 @@ a{
   padding: 5px;
   border: 0;
 }
+
+/*  REGISTER /register.html */
+
+.register-container{
+  margin-top: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.register-container > form{
+  display: flex;
+  flex-direction: column;
+}
+
+.register-container > form > input{
+  text-align: center;
+  padding: 8px 12px;
+  margin: 10px 0;
+}
+
+.register-container > form > button{
+  padding: 8px 12px;
+  margin: 10px 0;
+  background-color: limegreen;
+  border: 0;
+}
+
+/*  LOGIN /login.html */
+

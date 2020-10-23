@@ -17,6 +17,10 @@ app.get('/productCart', (req, res) => {
     res.sendFile(__dirname + '/views/productCart.html');
 });
 
+app.get('/register', (req, res) => {
+    res.sendFile(__dirname + '/views/register.html');
+});
+
 
 app.listen(PORT, () => {
     console.log("El servidor de monto en el puerto " + PORT);
