@@ -1,0 +1,24 @@
+{
+  "name": "lupulopolis",
+  "version": "1.0.0",
+  "description": "Ecommerce de cerveza",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiasBossa/GRUPO_6_Lupulopolis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatiasBossa/GRUPO_6_Lupulopolis/issues"
+  },
+  "homepage": "https://github.com/MatiasBossa/GRUPO_6_Lupulopolis#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
