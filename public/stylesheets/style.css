@@ -17,6 +17,7 @@ header {
   background-color: #343a40;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
@@ -69,12 +70,22 @@ a:visited{
 
 /* HEADER - NAVBAR */
 
-.logo-navbar{
-  width: 20%;
+nav{
+  height: 80px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+}
+
+.logo-navbar{
+  font-size: 1.5em;
+  margin-left: 30px;
+  color: white;
+}
+
+.logo-navbar span{
+  color: orange;
 }
 
 .navbar-container{
@@ -119,14 +130,29 @@ a:visited{
   transition: width .3s;
 }
 
-.user-option{
-  width: 20%;
-  display: flex;
-  justify-content: space-evenly;
-  margin-right: 20px;
+.invisible{
+  display: none;
 }
 
-/* MAIN - INDEX.EJS */
+.active{
+  color: orange;
+}
+
+.user-option{
+  display: flex;
+  font-size: 23px;
+}
+
+.user-option .navbar-item{
+  padding-right: 30px;
+}
+
+.toggle{
+  display: none;
+}
+
+
+/* PRODUCT CARD */
 
 .container-flex{
   width: 90%;
@@ -470,6 +496,8 @@ img{
   width: 60px;
 }
 
+/* MEDIAS QUERIES */
+
 @media screen and (min-width: 992px){
   .card{
       display: grid;
@@ -490,4 +518,91 @@ img{
   .product-content{
       padding-top: 0;
   }
+}
+
+
+@media (max-width: 600px){
+
+  .navbar-container{
+    position: absolute;
+    margin-top: 62vh;
+    background-color: #343a40;;
+    opacity: .95;
+    width: 100%;
+    z-index: 100;
+    order: 1;
+  }
+
+  .navbar-container .navbar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .user-option{
+    margin-top: 2px;
+    font-size: 23px;
+    margin-right: 0;
+  }
+
+  .toggle{
+    display: initial;
+  }
+
+  .user-option .navbar-item{
+    padding-right: 15px;
+    margin-top: 3px;
+    font-size: 18px;
+  }
+
+  .user-option .toggle{
+    margin-right: 10px;
+    color: white;
+  }
+
+  .user-option .toggle button{
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 23px;
+  }
+
+  .container-flex{
+    flex-wrap: wrap;
+  }
+
+  .product-card .imgBx img{
+    max-width: 50%;
+  }
+
+  .product-card::before{
+    top: -70%;
+    transform: skewY(390deg);
+  }
+
+  .product-card .contentBx .buy{
+    top: 0;
+    opacity: 1;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer .footer-content{
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .footer .footer-content .footer-section{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+ 
 }
