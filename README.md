@@ -16,6 +16,9 @@ El equipo esta conformado por 3 integrantes.
 
 * `Natalia María Cuello`,30 años, Diseñadora UI/UX freelance y data entry en una empresa. Programación Web Full Stack (Digital House)
 
+# TRELLO
+* https://trello.com/b/tw2Ev49x/proyecto-lupulopolis
+
 # BUSQUEDA DE INSPIRACION
 
 * https://www.clubcervecero.com.py -> Home del Sitio web y Carrito de Compras
