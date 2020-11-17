@@ -298,7 +298,7 @@ nav{
   border: 1px solid gray;
   width: 45px;
   height: 41px;
-  padding-top: 5px;
+  padding-top: 8px;
   margin-right: 20px;
   text-align: center;
   display: inline-block;
@@ -366,27 +366,6 @@ nav{
 
 /* PRODUCT DETAILS */
 
-/* .product-columns{
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-}
-
-.column-left{
-  width: 300px;
-  height: 500px;
-}
-
-.column-left > img{
-  width: 100%;
-  height: auto;
-}
-
-.column-right{
-  width: 40%;
-} */
-
-
 .card-wrapper{
   max-width: 1100px;
   margin: 0 auto;
@@ -409,6 +388,7 @@ img{
 .img-select{
   display: flex;
 }
+
 .img-item{
   margin: 0.3rem;
 }
@@ -420,6 +400,12 @@ img{
 .img-item:hover{
   opacity: 0.8;
 }
+
+.product-imgs h2{
+  text-align: center;
+  margin: 30px 0;
+}
+
 .product-content{
   padding: 2rem 1rem;
 }
@@ -473,6 +459,7 @@ img{
 .product-detail ul{
   margin: 1rem 0;
   font-size: 0.9rem;
+  margin-left: -64px;
 }
 .product-detail ul li{
   margin: 0;
@@ -493,6 +480,8 @@ img{
 
 .purchase-info input{
   width: 60px;
+  height: 30px;
+  text-align: center;
 }
 
 /* MEDIAS QUERIES */
@@ -519,12 +508,25 @@ img{
   }
 }
 
+@media (max-width: 320px){
+
+  .footer .footer-content .about .socials{
+    margin-top: 15px;
+  }
+
+  .footer .footer-content .about .socials a{
+    width: 37px;
+    height: 37px;
+  }
+  
+  
+}
 
 @media (max-width: 600px){
 
   .navbar-container{
     position: absolute;
-    margin-top: 62vh;
+    top: 80px;
     background-color: #343a40;;
     opacity: .95;
     width: 100%;
@@ -588,7 +590,7 @@ img{
   .footer{
     display: flex;
     flex-direction: column;
-    height: 1090px;
+    height: 1070px;
   }
 
   .footer-content{
@@ -602,14 +604,23 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 95%;
   }
 
+  .footer .footer-content .contact-form{
+    padding: 0;
+  }
+
+  .footer .footer-content .contact-form form{
+    width: 100%;
+  }
+  
   .footer .footer-content .contact-form .contact-input{
-    width: 450px;
+    width: 100%;
   }
 
   .contact-btn{
-    width: 450px;
+    width: 100%;
   }
 
 }

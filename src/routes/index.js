@@ -12,4 +12,6 @@ router.get('/productDetails', function(req, res, next) {
 
 
 
+
+
 module.exports = router;
