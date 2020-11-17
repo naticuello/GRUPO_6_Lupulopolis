@@ -10,6 +10,10 @@ router.get('/productDetails', function(req, res, next) {
   res.render('productDetails');
 });
 
+router.get('/productCart', function(req, res, next) {
+  res.render('productCart');
+});
+
 
 
 
